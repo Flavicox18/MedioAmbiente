@@ -2007,6 +2007,15 @@ section,
   background: rgba(var(--accent-color-rgb), 0.8);
 }
 
+.heart-icon {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.heart-icon.liked {
+  color: red;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
